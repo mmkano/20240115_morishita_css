@@ -33,15 +33,17 @@ header .inner{
     width: 100%;
     margin: 0 auto;
 }
-
+.main__ttl{
+    grid-row: 3/4;
+}
 .main h1{
     font-size: 60px;
     font-weight: normal;
 }
 
 .main__box{
-    position: absolute;
-    top: 50%;
+    /*position: absolute;
+    top: 50%;*/
     grid-row: 3/4;
     width: 70%;
     height: 120px;
@@ -51,7 +53,7 @@ header .inner{
 .main__image{
     width: 50%;
     position:absolute;
-    top: 50%;
+    bottom: 150px;
     left: 50%;
 
 }
