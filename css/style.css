@@ -28,26 +28,23 @@ header .inner{
 
 .main{
     position: relative;
+    display: grid;
+    grid-template-rows: 100px 300px 300px;
     width: 100%;
-    max-width: 1500px;
-    min-width: 1000px;
     margin: 0 auto;
-
-
 }
 
 .main h1{
     font-size: 60px;
-    position: absolute;
-    transform: translateY(450%);
     font-weight: normal;
 }
 
 .main__box{
+    position: absolute;
+    top: 50%;
+    grid-row: 3/4;
     width: 70%;
     height: 120px;
-    position: absolute;
-    transform: translateY(400%);
     background-color: #000080;
 }
 
@@ -56,8 +53,6 @@ header .inner{
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(20%);
-    z-index: 1;
 
 }
 
